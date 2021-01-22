@@ -28,7 +28,6 @@ else:
     running = False
 
 while running:
-    
     lesson.append(getDate())
     lesson.append(getStandards())
     lesson.append(getLesson())
