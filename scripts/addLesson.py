@@ -46,13 +46,13 @@ while running:
             errLoc = int(input())
 
         if errLoc == 1:
-           lesson[0] = getDate() 
+           lesson[0] = getDate()
         elif errLoc == 2:
-           lesson[1] = getStandards() 
+           lesson[1] = getStandards()
         elif errLoc == 3:
-           lesson[2] = getLesson() 
+           lesson[2] = getLesson()
         elif errLoc == 4:
-           lesson[3] = getVideoLinks() 
+           lesson[3] = getVideoLinks()
 
 
         print(lesson)
